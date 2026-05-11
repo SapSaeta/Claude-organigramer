@@ -107,6 +107,7 @@ Cada agente emite su propio informe con:
 - Senales negativas detectadas
 - Complejidad oculta que el usuario probablemente no ha visto
 - Pregunta critica que el agente necesita respuesta
+- Propuestas de mejora: entre dos y cuatro acciones concretas que el agente recomendaria para fortalecer la idea en su area de responsabilidad. Deben ser especificas y ejecutables, no consejos genericos. Si el agente no puede proponer mejoras sin informacion adicional, lo indica y explica que necesita saber.
 - Recomendacion del agente (sin veredicto final, eso es funcion del evaluador)
 
 ### Paso 6: Abogado del Diablo
@@ -203,6 +204,11 @@ Para cada agente del comite (excepto el Abogado del Diablo, que tiene su seccion
 
 **Pregunta critica:**
 > ...
+
+**Propuestas de mejora:**
+1. ...
+2. ...
+3. ...
 
 **Recomendacion del agente:**
 ...
