@@ -1,0 +1,133 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#0d1117"/>
+  <rect x="524" width="676" height="400" fill="#111820"/>
+
+  <!-- Subtle top border accent -->
+  <rect width="1200" height="2" fill="#21262d"/>
+
+  <!-- Panel divider -->
+  <line x1="524" y1="0" x2="524" y2="400" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ============ CONNECTING LINES (drawn below nodes) ============ -->
+
+  <!-- IDEA to agents -->
+  <line x1="255" y1="120" x2="40"  y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="255" y1="120" x2="126" y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="255" y1="120" x2="212" y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="255" y1="120" x2="298" y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="255" y1="120" x2="384" y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="255" y1="120" x2="470" y2="194" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Agents to VEREDICTO -->
+  <line x1="40"  y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="126" y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="212" y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="298" y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="384" y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="470" y1="246" x2="255" y2="292" stroke="#1c2128" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- ============ LEFT PANEL: NODES ============ -->
+
+  <!-- Panel label -->
+  <text x="255" y="22" text-anchor="middle" font-family="monospace" font-size="9" fill="#484f58" letter-spacing="5">COMITE DINAMICO</text>
+
+  <!-- IDEA hexagon (pointy-top, center 255,78, radius 42) -->
+  <!-- Points: 255,36  292,57  292,99  255,120  218,99  218,57 -->
+  <polygon points="255,36 292,57 292,99 255,120 218,99 218,57" fill="#1a1200" stroke="#e3b341" stroke-width="2"/>
+  <text x="255" y="74" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#e3b341">IDEA</text>
+  <text x="255" y="91" text-anchor="middle" font-family="monospace" font-size="8" fill="#7d6020" letter-spacing="1">del usuario</text>
+
+  <!-- Agent 1: DEMANDA MERCADO (blue) -->
+  <circle cx="40" cy="220" r="26" fill="#0c1c30" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="40" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">DEMANDA</text>
+  <text x="40" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">MERCADO</text>
+
+  <!-- Agent 2: TECNICO PRODUCTO (blue) -->
+  <circle cx="126" cy="220" r="26" fill="#0c1c30" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="126" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">TECNICO</text>
+  <text x="126" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">PRODUCTO</text>
+
+  <!-- Agent 3: LEGAL COMPLIANCE (blue) -->
+  <circle cx="212" cy="220" r="26" fill="#0c1c30" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="212" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">LEGAL</text>
+  <text x="212" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">COMPLIANCE</text>
+
+  <!-- Agent 4: FINANZAS MARGENES (blue) -->
+  <circle cx="298" cy="220" r="26" fill="#0c1c30" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="298" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">FINANZAS</text>
+  <text x="298" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#58a6ff">MARGENES</text>
+
+  <!-- Agent 5: ABOGADO DEL DIABLO (red) -->
+  <circle cx="384" cy="220" r="26" fill="#2a0d0d" stroke="#da3633" stroke-width="1.5"/>
+  <text x="384" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#f85149">ABOGADO</text>
+  <text x="384" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#f85149">DEL DIABLO</text>
+
+  <!-- Agent 6: EVALUADOR FINAL (green) -->
+  <circle cx="470" cy="220" r="26" fill="#0a2010" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="470" y="216" text-anchor="middle" font-family="monospace" font-size="7" fill="#56d364">EVALUADOR</text>
+  <text x="470" y="228" text-anchor="middle" font-family="monospace" font-size="7" fill="#56d364">FINAL</text>
+
+  <!-- Dynamic note -->
+  <text x="255" y="264" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#30363d">agentes especificos por idea  ·  sin redundancia</text>
+
+  <!-- VEREDICTO box -->
+  <rect x="165" y="286" width="180" height="62" rx="8" fill="#0a1a10" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="255" y="308" text-anchor="middle" font-family="monospace" font-size="10" font-weight="bold" fill="#3fb950" letter-spacing="2">VEREDICTO</text>
+  <rect x="175" y="316" width="160" height="1" fill="#1a3a20"/>
+  <text x="216" y="331" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#484f58">DESCARTAR</text>
+  <text x="255" y="331" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#484f58">·</text>
+  <text x="294" y="331" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#484f58">APARCAR</text>
+  <text x="216" y="344" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#56d364">VALIDAR</text>
+  <text x="255" y="344" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#56d364">·</text>
+  <text x="294" y="344" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#56d364">CONSTRUIR</text>
+
+  <!-- Bottom left credit -->
+  <text x="255" y="386" text-anchor="middle" font-family="monospace" font-size="8" fill="#21262d">Claude Code  Skill</text>
+
+  <!-- ============ RIGHT PANEL: BRANDING ============ -->
+
+  <!-- Main title -->
+  <text x="862" y="96" text-anchor="middle" font-family="monospace" font-size="42" font-weight="bold" fill="#e6edf3" letter-spacing="3">CLAUDE</text>
+  <text x="862" y="146" text-anchor="middle" font-family="monospace" font-size="42" font-weight="bold" fill="#58a6ff" letter-spacing="3">ORGANIGRAMER</text>
+
+  <!-- Skill name -->
+  <text x="862" y="172" text-anchor="middle" font-family="monospace" font-size="12" fill="#30363d" letter-spacing="1">idea-critical-organigramer</text>
+
+  <!-- Separator -->
+  <line x1="560" y1="190" x2="1164" y2="190" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Description lines -->
+  <text x="862" y="220" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">Evaluacion critica de ideas mediante un organigrama</text>
+  <text x="862" y="238" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">dinamico construido desde cero para cada idea concreta.</text>
+  <text x="862" y="258" text-anchor="middle" font-family="monospace" font-size="13" fill="#6e7681">No complaciente. Exige evidencia. Sin hype.</text>
+
+  <!-- Tag pills — centered at x=862, total width ~504px, start x=610 -->
+  <!-- NO COMPLACIENTE (w=138) · DINAMICO (w=94) · EVIDENCIA (w=94) · VALIDAR PRIMERO (w=138) -->
+  <!-- gaps: 12px between each -->
+  <!-- total: 138+12+94+12+94+12+138 = 500px, start= 862-250=612 -->
+
+  <rect x="612" y="278" width="138" height="26" rx="13" fill="#2a0d0d" stroke="#da3633" stroke-width="1"/>
+  <text x="681" y="295" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#f85149">NO COMPLACIENTE</text>
+
+  <rect x="762" y="278" width="94" height="26" rx="13" fill="#0c1c30" stroke="#1f6feb" stroke-width="1"/>
+  <text x="809" y="295" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#58a6ff">DINAMICO</text>
+
+  <rect x="868" y="278" width="94" height="26" rx="13" fill="#1a1200" stroke="#e3b341" stroke-width="1"/>
+  <text x="915" y="295" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#e3b341">EVIDENCIA</text>
+
+  <rect x="974" y="278" width="138" height="26" rx="13" fill="#0a1a10" stroke="#3fb950" stroke-width="1"/>
+  <text x="1043" y="295" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#56d364">VALIDAR PRIMERO</text>
+
+  <!-- Bottom separator -->
+  <line x1="560" y1="322" x2="1164" y2="322" stroke="#1c2128" stroke-width="1"/>
+
+  <!-- Stats line -->
+  <text x="862" y="348" text-anchor="middle" font-family="monospace" font-size="11" fill="#484f58">6–12 agentes dinamicos</text>
+  <text x="862" y="365" text-anchor="middle" font-family="monospace" font-size="11" fill="#484f58">11 dimensiones  ·  4 veredictos  ·  12 pruebas de validacion</text>
+
+  <!-- Bottom right watermark -->
+  <text x="862" y="390" text-anchor="middle" font-family="monospace" font-size="9" fill="#21262d">Claude Code  ·  Skill</text>
+
+</svg>
