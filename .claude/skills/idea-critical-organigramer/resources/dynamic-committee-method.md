@@ -29,7 +29,7 @@ Preguntas que hay que responder:
 
 **Sobre el modelo operativo:**
 - Requiere operacion fisica continua?
-- Puede funcionar de forma asincronaa o automatizada?
+- Puede funcionar de forma asincrona o automatizada?
 - Depende de personas especificas o puede escalar con sistemas?
 - Tiene estacionalidad o variabilidad de demanda?
 
@@ -236,7 +236,7 @@ Funciones criticas especificas:
 - Costes editoriales (autor, editor, produccion) vs ingresos posibles
 - Tiempo hasta monetizacion sostenible
 
-Agentes: especialista en construccion de audiencia y comunidad, responsable editorial y estrategia de contenido diferenciado, especialista en modelos de monetizacion de medios independientes, analista de economica de newsletters y publicaciones de pago, responsable de eventos y formacion como canal de ingresos, Abogado del Diablo, Evaluador Final.
+Agentes: especialista en construccion de audiencia y comunidad, responsable editorial y estrategia de contenido diferenciado, especialista en modelos de monetizacion de medios independientes, analista de economicas de newsletters y publicaciones de pago, responsable de eventos y formacion como canal de ingresos, Abogado del Diablo, Evaluador Final.
 
 ---
 
