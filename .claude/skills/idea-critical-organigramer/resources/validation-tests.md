@@ -237,7 +237,7 @@ Cubrir al menos el 30% del coste de produccion inicial con pedidos anticipados.
 No conseguir suficientes pedidos para cubrir los costes minimos de produccion.
 
 **Cuando abandonar:**
-Si la campana no alcanza el 15% del objetivo despues de dos semanas con promotion activa.
+Si la campana no alcanza el 15% del objetivo despues de dos semanas con promocion activa.
 
 ---
 
